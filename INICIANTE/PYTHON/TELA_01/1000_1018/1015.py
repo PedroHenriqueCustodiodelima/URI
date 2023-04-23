@@ -1,0 +1,10 @@
+import math
+a = input().split()
+xA = float(a[0])
+xB = float(a[1])
+p = input().split()
+yA = float(p[0])
+yB = float(p[1])
+distAB = ((yA - xA)**2) + ((xB - yB)**2)
+raiz = math.pow(distAB, 1/2)
+print("{:.4f}".format(raiz))
