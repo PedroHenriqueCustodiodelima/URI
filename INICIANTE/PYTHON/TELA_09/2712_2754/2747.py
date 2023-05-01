@@ -1,0 +1,7 @@
+print("-" *39)
+print("|                                     |")        
+print("|                                     |") 
+print("|                                     |") 
+print("|                                     |") 
+print("|                                     |") 
+print("-" *39)
