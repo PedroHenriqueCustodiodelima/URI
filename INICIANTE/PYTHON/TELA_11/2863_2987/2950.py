@@ -1,0 +1,6 @@
+str = input().split()
+n = float(str[0])
+x = float(str[1])
+y = float(str[2])
+c = n / (x + y)
+print("{:.2f}".format(c))
